@@ -26,7 +26,7 @@ import android.widget.Toast;
         }
     }
 
-    @Override
+
     public void onRequestPermisionsResult (int requestCode, String[] permissions, int[] grantResults){
         switch (requestCode){
             case REQUEST_SEND_SMS:
